@@ -19,6 +19,6 @@ namespace GerenciadorCondominios.BLL.Models
         [Range(2020, 2030, ErrorMessage = "Valor inválido")]
         public decimal Ano { get; set; }
 
-        public virtual ICollection<Pagamento> { get; set; }
+        public virtual ICollection<Pagamento> Pagamentos { get; set; }
     }
 }

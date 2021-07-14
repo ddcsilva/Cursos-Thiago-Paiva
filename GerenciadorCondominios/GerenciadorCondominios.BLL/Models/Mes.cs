@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace GerenciadorCondominios.BLL.Models
 {
@@ -11,6 +7,6 @@ namespace GerenciadorCondominios.BLL.Models
         public int MesId { get; set; }
         public string Nome { get; set; }
         public virtual ICollection<Aluguel> Alugueis { get; set; }
-        public virtual ICollection<HistoricoRecurso> HistoricoRecursos { get; set; }
+        public virtual ICollection<HistoricoRecursos> HistoricosRecursos { get; set; }
     }
 }
