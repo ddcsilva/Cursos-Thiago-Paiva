@@ -20,7 +20,7 @@ namespace GerenciadorCondominios.BLL.Models
 
         public string MoradorId { get; set; }
 
-        public virtual Usuario Usuario { get; set; }
+        public virtual Usuario Morador { get; set; }
 
         public string ProprietarioId { get; set; }
 
